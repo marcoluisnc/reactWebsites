@@ -1,0 +1,31 @@
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    place-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    border-top: 1px solid gray;
+}
+.footer-container div{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: 
+    #767676;
+}
+.footer-container div h3{
+    color: #3b3b3b;
+}
+.footer-container div.icons{
+    flex-direction: row !important;
+    width: 100px;
+    color: #06DFB3;
+    font-size: 20px;
+}
+@media (max-width:400px){
+   
+}
